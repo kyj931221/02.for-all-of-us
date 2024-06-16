@@ -1,0 +1,790 @@
+fileFormatVersion: 2
+guid: 04afacddaccc56a48acea18fe986a7c3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: plants_01
+  - first:
+      213: 21300002
+    second: plants_atlas_0
+  - first:
+      213: 21300004
+    second: plants_atlas_1
+  - first:
+      213: 21300006
+    second: plants_atlas_2
+  - first:
+      213: 21300008
+    second: plants_atlas_3
+  - first:
+      213: 21300010
+    second: plants_atlas_4
+  - first:
+      213: 21300012
+    second: plants_atlas_5
+  - first:
+      213: 21300014
+    second: plants_atlas_6
+  - first:
+      213: 21300016
+    second: grass_01
+  - first:
+      213: 21300018
+    second: grass_02
+  - first:
+      213: 21300020
+    second: grass_03
+  - first:
+      213: 21300022
+    second: grass_04
+  - first:
+      213: 21300024
+    second: grass_05
+  - first:
+      213: 21300026
+    second: plants_atlas_12
+  - first:
+      213: 21300028
+    second: plants_atlas_13
+  - first:
+      213: 21300030
+    second: plants_atlas_14
+  - first:
+      213: 21300032
+    second: plants_atlas_15
+  - first:
+      213: 21300034
+    second: plants_atlas_16
+  - first:
+      213: 21300036
+    second: plants_atlas_17
+  - first:
+      213: 21300038
+    second: plants_atlas_18
+  - first:
+      213: 21300040
+    second: plants_atlas_19
+  - first:
+      213: 21300042
+    second: plants_atlas_20
+  - first:
+      213: 21300044
+    second: plants_atlas_21
+  - first:
+      213: 21300046
+    second: plants_atlas_22
+  - first:
+      213: 21300048
+    second: plants_atlas_23
+  - first:
+      213: 21300050
+    second: plants_atlas_24
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: plants_01
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3739
+        width: 1517
+        height: 870
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bf25fb49f8dce748a2cb6a145920df2
+      internalID: 21300000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_0
+      rect:
+        serializedVersion: 2
+        x: 1547
+        y: 3767
+        width: 1351
+        height: 947
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e2162487674d0a489ca54269c996823
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_1
+      rect:
+        serializedVersion: 2
+        x: 2940
+        y: 3769
+        width: 1913
+        height: 971
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caedb01d132576b4ea5d3aca64d33a4b
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_2
+      rect:
+        serializedVersion: 2
+        x: 3849
+        y: 2897
+        width: 1151
+        height: 781
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bea95d0ab5be56b439a23f1731c1b53a
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_3
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 2895
+        width: 1109
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de1bc399cf2bd64ca74d93566580605
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_4
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 2887
+        width: 1258
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88b68a1d48364074ab086ae7e5f8f839
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_5
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 2908
+        width: 1191
+        height: 774
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 359de396205552a4fb0d9fa815203ffa
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_6
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 2108
+        width: 1252
+        height: 741
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117f73830b4da9f4bad348ab8daefe8f
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_01
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 2123
+        width: 560
+        height: 596
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a002b2b1550713a429425d12349ed038
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_02
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 2140
+        width: 621
+        height: 585
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8be698fc975bf468facfcf4bba1607
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_03
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 2155
+        width: 853
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e0ac40e810dcc44f94c8e5d31e16323
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_04
+      rect:
+        serializedVersion: 2
+        x: 3573
+        y: 2163
+        width: 411
+        height: 484
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b706e10520bcdf4ca047a2c8d9bedfd
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grass_05
+      rect:
+        serializedVersion: 2
+        x: 4003
+        y: 2169
+        width: 838
+        height: 480
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3086f382bba82d8498e7ec69a4588d52
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_12
+      rect:
+        serializedVersion: 2
+        x: 4492
+        y: 1062
+        width: 863
+        height: 788
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2399a55920c0af8458a19b79c9c7cf16
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_13
+      rect:
+        serializedVersion: 2
+        x: 3496
+        y: 1062
+        width: 980
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8278357d43289924c943c06c66ce132b
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_14
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 1082
+        width: 774
+        height: 988
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fc37ef2b83c6ec47873b3b238830b73
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_15
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1091
+        width: 670
+        height: 784
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d27c380a6e8984ba61b3b430c0319e
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_16
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1084
+        width: 869
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa5431bd164c614e833fb350c094206
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_17
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1051
+        width: 928
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e7a2f9629b7e54f925143341ad9253
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_18
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 131
+        width: 953
+        height: 865
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 561426a45c88e9544aa359c0814b6aed
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_19
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 129
+        width: 815
+        height: 729
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56cef804275384d488683e6d7763efea
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_20
+      rect:
+        serializedVersion: 2
+        x: 1792
+        y: 132
+        width: 705
+        height: 760
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a1cf230b7bbc74e8327cc592698345
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_21
+      rect:
+        serializedVersion: 2
+        x: 2522
+        y: 132
+        width: 747
+        height: 887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 773dc7dca0183dc4fac52b6692e92ab4
+      internalID: 21300044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_22
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 161
+        width: 533
+        height: 644
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a707da261bde474993e97ceddc9b5e5
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_23
+      rect:
+        serializedVersion: 2
+        x: 3859
+        y: 143
+        width: 609
+        height: 752
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a37adba7a39d8eb4c8b968ffa5c9bfd1
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: plants_atlas_24
+      rect:
+        serializedVersion: 2
+        x: 4475
+        y: 153
+        width: 813
+        height: 693
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b27e66af28aa7d34cb24bb8bdf40c894
+      internalID: 21300050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6ac67e4965240ad42ad3057d2d3bd83a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      grass_01: 21300016
+      grass_02: 21300018
+      grass_03: 21300020
+      grass_04: 21300022
+      grass_05: 21300024
+      plants_01: 21300000
+      plants_atlas_0: 21300002
+      plants_atlas_1: 21300004
+      plants_atlas_12: 21300026
+      plants_atlas_13: 21300028
+      plants_atlas_14: 21300030
+      plants_atlas_15: 21300032
+      plants_atlas_16: 21300034
+      plants_atlas_17: 21300036
+      plants_atlas_18: 21300038
+      plants_atlas_19: 21300040
+      plants_atlas_2: 21300006
+      plants_atlas_20: 21300042
+      plants_atlas_21: 21300044
+      plants_atlas_22: 21300046
+      plants_atlas_23: 21300048
+      plants_atlas_24: 21300050
+      plants_atlas_3: 21300008
+      plants_atlas_4: 21300010
+      plants_atlas_5: 21300012
+      plants_atlas_6: 21300014
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
