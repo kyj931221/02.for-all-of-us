@@ -53,11 +53,13 @@ public class PlayerController : MonoBehaviour
         {
             playerRigidbody.velocity = new Vector2(maxSpeed, playerRigidbody.velocity.y);
             PlayerSpriteRenderer.flipX = false;
+            
         }
         else if(playerRigidbody.velocity.x < maxSpeed*(-1))
         {
             playerRigidbody.velocity = new Vector2(maxSpeed*(-1), playerRigidbody.velocity.y);
             PlayerSpriteRenderer.flipX = true;
+
         }
     }
 
