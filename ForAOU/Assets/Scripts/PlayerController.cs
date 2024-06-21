@@ -71,6 +71,23 @@ public class PlayerController : MonoBehaviour
 
         playerRigidbody.velocity = Vector2.zero;
         isDead = true;
+
+        GameManager.instance.OnPlayerDead();
+    }
+
+    private void Gola()
+    {
+        GameManager.instance.LoadScene(1);
+    }
+
+    private void Again()
+    {
+        GameManager.instance.LoadScene(0);
+    }
+
+    private void Exit()
+    {
+        GameManager.instance.Exit();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -82,7 +99,17 @@ public class PlayerController : MonoBehaviour
 
         if(other.tag == "Goal" && !isDead)
         {
-            // 플레이어가 목표지점에 도달했을 때 이벤트 발생.
+            Gola();
+        }
+
+        if(other.tag == "Again")
+        {
+            Again();
+        }
+
+        if(other.tag == "Exit")
+        {
+            Exit();
         }
     }
 

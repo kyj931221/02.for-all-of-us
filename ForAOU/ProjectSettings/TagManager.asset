@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Dead
   - Goal
+  - Again
+  - Exit
   layers:
   - Default
   - TransparentFX
