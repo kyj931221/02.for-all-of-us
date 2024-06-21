@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class BackgroundLoop : MonoBehaviour
+public class IntroBackgroundLoop : MonoBehaviour
 {
     private float width;
 
@@ -16,18 +16,16 @@ public class BackgroundLoop : MonoBehaviour
         
     }
 
-    
     void Update()
     {
-        if(transform.position.x <= -width / 0.5f)
+        if (transform.position.x <= -width / 1.5f)
         {
             Reposition();
         }
     }
-
     private void Reposition()
     {
-        Vector2 offset = new Vector2(width * 3f, 0);
-        transform.position = (Vector2) transform.position + offset;
+        Vector2 offset = new Vector2(width * 4f, 0);
+        transform.position = (Vector2)transform.position + offset;
     }
 }
