@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
 
     private int score = 0;
 
+    //private Image image;
+
     private void Awake()
     {
         if(instance == null)
@@ -31,6 +33,8 @@ public class GameManager : MonoBehaviour
             Debug.LogWarning("More than one game manager exists in the scene.");
             Destroy(gameObject);
         }
+
+        //image = GetComponent<Image>();
     }
     void Start()
     {
@@ -70,4 +74,17 @@ public class GameManager : MonoBehaviour
         Application.Quit();
     }
 
+    /*
+    public void FadeEffect()
+    {
+        Color color = image.color;
+
+        if(color.a > 0)
+        {
+            color.a -= Time.deltaTime;
+        }
+
+        image.color = color;
+    }
+    */
 }
