@@ -90,6 +90,7 @@ public class PlayerController : MonoBehaviour
         GameManager.instance.Exit();
     }
 
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Dead" && !isDead)

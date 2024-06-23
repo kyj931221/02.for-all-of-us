@@ -8,6 +8,7 @@ TagManager:
   - Goal
   - Again
   - Exit
+  - Ep00
   layers:
   - Default
   - TransparentFX

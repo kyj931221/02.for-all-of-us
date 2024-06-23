@@ -5,28 +5,38 @@ using UnityEngine.UI;
 
 public class FadeEff : MonoBehaviour
 {
-    private Image image;
+    public Image Panel;
+    float time = 0;
+    float F_time = 1f;
 
-    private void Awake()
+    public void Fade()
     {
-        image = GetComponent<Image>();
+        StartCoroutine(FadeFlow());
     }
-
-    void Start()
+    IEnumerator FadeFlow()
     {
-        
-    }
+        Panel.gameObject.SetActive(true);
+        time = 0f;
 
-    // Update is called once per frame
-    void Update()
-    {
-        Color color = image.color;
-
-        if (color.a > 0)
+        Color alpha = Panel.color;
+        while (alpha.a < 1f)
         {
-            color.a -= Time.deltaTime;
+            time += Time.deltaTime / F_time;
+            alpha.a = Mathf.Lerp(0, 1, time);
+            Panel.color = alpha;
+            yield return null;
         }
+        time = 0f;
 
-        image.color = color;
+        yield return new WaitForSeconds(1f);
+
+        while (alpha.a > 0f)
+        {
+            time += Time.deltaTime / F_time;
+            alpha.a = Mathf.Lerp(1, 0, time);
+            Panel.color = alpha;
+            yield return null;
+        }
+        yield return null;
     }
 }
