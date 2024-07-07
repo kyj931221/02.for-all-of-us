@@ -6,6 +6,6 @@ public class HomeButton : MonoBehaviour
 {
     public void PlayGameHome()
     {
-        GameManager.instance.LoadScene(1);
+        GameManager.instance.LoadScene(0);
     }
 }

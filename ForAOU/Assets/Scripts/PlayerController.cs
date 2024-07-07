@@ -115,7 +115,7 @@ public class PlayerController : MonoBehaviour
 
     private void Again()
     {
-        GameManager.instance.LoadScene(0);
+        GameManager.instance.LoadScene(1);
     }
 
     private void Exit()

@@ -7,6 +7,6 @@ public class PlayButton : MonoBehaviour
 {
     public void PlayGameStart()
     {
-        GameManager.instance.LoadScene(0);
+        GameManager.instance.LoadScene(1);
     }
 }
